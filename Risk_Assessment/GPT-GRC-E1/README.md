@@ -1,4 +1,4 @@
-# GPT-GRV-E1
+# GPT-GRC-E1
 
 A [GPT](https://chat.openai.com/gpts/discovery) for GRC dubbed "E1" as in "Expert 1".
 
