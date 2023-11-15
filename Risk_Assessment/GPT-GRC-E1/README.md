@@ -10,4 +10,5 @@ Copies of the materials are uploaded here, but sources are cited as appropriate.
 Contributors are expected to meet and maintain this standard for materials. Consult and ccoordinate if you have questions or concerns, please.
 
 The AI can be found at: https://chat.openai.com/g/g-A10ji2Yl3-smb-cybersecurity-risk-assessment-specialist
-(OpenAI GPT-Plus subscription is required for access and use of this AI).
+
+_(OpenAI GPT-Plus subscription is required for access and use of this AI)._
