@@ -1,0 +1,146 @@
+SRC: https://blog.wildix.com/measure-cybersecurity-risk/
+Accessed on: Nov 15, 2023
+
+
+How to Measure Cybersecurity Risk
+In any modern business, cybersecurity risk plays a huge role in defending the business from malicious actors. Knowing how to measure cybersecurity risk can help MSPs explain how cybersecurity works to end-users who may be less technology-literate.
+
+
+The Dangers of Not Understanding Cybersecurity Risk
+Virtually every business is connected to the internet and in far more complex ways than they might imagine. As an MSP, you understand how a company’s phone system, their sales programs, their subscriptions and their website are all interlinked. Unfortunately, many end-users treat these as separate things.
+
+A cybersecurity breach can hit hard. It doesn’t matter whether it hits payment processing or the PBX — once something is breached by a hacker, it’s much easier for that hacker to access other parts of the network. Customer data. Corporate secrets. All either locked out via ransomware or copied and sold on the dark web.
+
+The stats here are terrifying: 90% of IT decision-makers feel that C-suite executives compromise on cybersecurity in favour of other goals. How can MSPs get across the importance of understanding cybersecurity risk to end-users?
+
+Cybersecurity Risk in Simple Terms
+Let’s start with a simple definition: What is cybersecurity risk?
+
+Cybersecurity risk is a measure of the likelihood of exposure, the loss of sensitive assets and information, and the reputational damage that occurs as a result of a cybersecurity breach.
+
+One of the key issues is that many of these stats are seemingly intangible. How do you measure “reputational damage,” for example? Or the cost of losing files? Or not being able to access various parts of your systems?
+
+In the book “How to Measure Anything in Cybersecurity Risk,” Douglas Hubbard and Richard Seiersen narrow their focus on measuring anything in terms of risk to specifically cybersecurity risk. But the principles are fairly simple:
+
+Identify key problems that may arise
+Work out how long it would take to resolve those issues
+Factor in lost sales or opportunities
+Create a monetary amount that takes into account the cost
+Determine from that the areas to focus on
+While many cybersecurity risk matrices use a threat index (how likely an attack may happen from one to three against damage caused from one to three), these tend to be unhelpful because they don’t define the likely cost of issues. A cybersecurity risk matrix can risk underestimating major issues and overestimating less critical issues.
+
+The Problem With Cybersecurity Risk Matrices
+The basic 5-level cybersecurity risk matrix looks like this. There’s appropriate shading, and it’s clear that the worst one is where “certain” and “severe” cross paths.
+
+The-Problem-With-Cybersecuri-y-Risk-Matrices
+Unfortunately, this simplistic risk matrix does very little to actually quantify the level of risk and the practical issues associated with leaving those risks as-is. And once you get around the middle section, especially around the moderate risk line, where do you start placing your priorities when everything is an 8 to 12?
+
+Even worse, this sort of overly simplistic thinking results in people estimating without using actual figures. That leads to problems with quantifying and measuring cybersecurity risk in a way that C-level executives can understand.
+
+The big question for any business cybersecurity decision should always be this: What does this mean for my company’s bottom line?
+
+How Do You Measure Cybersecurity Risk: The Practical Side
+The big problem is that there are a lot of unknowns when measuring cybersecurity risk. But that’s not as big an issue as you might think.
+
+Let’s take a standard question: Am I going to suffer a cybersecurity breach?
+
+Well, once you know that 62% of companies in the Americas suffered some sort of cybersecurity breach in 2021, the answer is “very probably.” But that’s unhelpful.
+
+So you want to come up with some sort of value system. Some way of determining loss.
+
+Defining and Refining Cybersecurity Risk Data
+Where a lot of cybersecurity experts get a little wary is when hard data is involved. It’s easy to say there will be a medium amount of risk if this happens, but suddenly that “medium” becomes difficult to express as a quantified amount.
+
+The typical response here is “we lack data to assess that.”
+
+But if they lack the data to assess a qualitative amount, they lack the data to assess a non-qualitative amount. After all, how do they know it’s a “medium” without data?
+
+So let’s get rid of that nonsense. Let’s get probabilistic and properly define risk data:
+
+Define a list of risks
+Define the time over which the risk could occur (typically 12 months)
+Subjectively assign a probability to each event occurring from 0% to 100%
+Assign a likely monetary loss range to each event (a 90% probability that a loss will occur within that range)
+So a breach covers all sorts of things. It could be something simple like a single unauthorized access of records. But it could also cover something much more serious. So, as stated above, we need to attach a monetary value to each specific breach. You might say something like this:
+
+The likelihood of a ransomware attack on an office is 10%, and there’s a 90% chance that it’ll cost us $100,000 to $1 million.
+
+That looks like this on the table:
+
+Risk-Entry-in-Excel-example
+Where do you get these values? That comes from an analysis of the sorts of breaches that could occur and the exposure of information as a result of that breach. It also comes from a subjective assessment using your experience.
+
+You could also express it in terms of downtime, which is then expressed in terms of monetary loss:
+
+There’s a 12% chance of a DDoS attack, and there’s a 90% chance that it’ll take us 12-24 hours to recover, which will cost us $1 million to $2 million in lost sales.
+
+You put that into the sheet, so the two entries you have are as follows:
+
+Risk-entry-example-2
+All of these are fairly general, but they’re using numbers, which puts us in a better position than before. Because we’re using data and monetary amounts, we can quantify cybersecurity risk to businesses. And we can test and refine those numbers the more we look at the actual scenarios the company faces.
+
+Now at this point, we might start talking about putting it into a Monte Carlo simulation.
+
+Monte Carlo! Is Cybersecurity Risk Gambling?
+The people who were creating atomic weapons in the Manhattan Project of the 1940s were avid gamblers, and they created probabilistic scenarios — thousands of them — to model how their weapons might work. It essentially used random number generators to test out all these scenarios and suggest a probability curve for all the possible outcomes in one sheet.
+
+They gave this form of modelling a name: a Monte Carlo simulation. The idea is that over time, all these different possible scenarios with probability ranges can eventually even out, creating an overall likelihood of risk and the associated monetary loss. This is basically how casinos make their money: fractionally skewing the odds in their favour means over thousands of games, they come out ahead.
+
+These models are very useful for measuring cybersecurity risk, especially as each outcome can be measured as a monetary loss.
+
+Now, even in your pocket, you likely have a device that has many billions of times the computing power compared to those atomic scientists used, and instead, it’s used for playing Wordle. So it’s very easy to model these calculations.
+
+You can find out more about creating Monte Carlo simulations at the surprisingly helpful Microsoft Excel page on the topic. There’s also a handy Excel sheet download from the How to Measure Anything in Cybersecurity Risk website (under Chapter 3).
+
+So we don’t have to go into the maths, you’ll be relieved to hear. However, the upshot is that if you create 10,000 of these Monte Carlo simulations, you iron out most of the issues with probability and end up with a likely gradient of monetary amounts that the firm currently faces losing each year if it doesn’t change or improve its practices.
+
+The next step is getting C-level executives to listen.
+
+I Want No Cybersecurity Risk!
+Of course, not everyone will accept there is always risk when it comes to cybersecurity. That either manifests itself as “I don’t want any risk” or “there is no risk.” Both attitudes are problematic, but the second is more so. We’ll deal with that one first.
+
+There’s No Risk
+While large businesses generally talk about risk and have large cybersecurity teams, there’s often a feeling that it’s “being dealt with” and they don’t need to talk about it. This is because it’s been almost downgraded to just another operational risk, much like a hurricane, heatwaves or another disaster.
+
+Unfortunately, this means that even now, governments and other organizations still suffer from organizational indecision on cyber risk. Yet rarely a week goes by without a major organization being hit by some sort of attack.
+
+In February 2023, for example, a massive assault on Italian VMWare ESXi servers took place, with hackers trying to steal or encrypt data. They managed to crack and encrypt a number of targets despite the fact that the hacks were using an exploit that was fixed two years ago. Why? Because no one had bothered to update the software on some servers for over two years.
+
+At some point, someone made an operational decision not to check the server software, whether it was through terminating an MSP’s contract or through firing the only people who knew how. Even worse, it could be the result of those in charge having no idea of the workload of the cybersecurity staff they employed, resulting in overstretched employees monitoring hundreds of possible vulnerabilities with little let-up.
+
+This is the result of the “there’s no risk” attitude to cybersecurity. That’s how MSPs need to get through to their customers: There is risk, and it’s costing companies with established cybersecurity procedures millions. You could be next.
+
+I Want No Risk
+Of course, the “I want no risk” cybersecurity approach also has issues. Companies who adopt this end up being very cautious about opportunities available to them and end up falling behind more agile operators.
+
+Take some of our competitors, for example. We’ve talked about Mitel, Avaya and a few others not having the flexibility to adopt cloud solutions aggressively enough, resulting in them falling substantially behind. While we’re not suggesting that this is down to a want-no-risk attitude, it does show how being slow to react to the online world can result in major issues.
+
+So it’s unrealistic. Companies that adopt this approach are worth approaching in many instances and gently converting. However, it takes a gentle hand to steer them to the new generation of products. You’ll need to show them how to measure cybersecurity risk in a way that’s practical.
+
+Maturity to Risk, to Proactive
+Fortunately, this is the very low end of the spectrum, but many small and even medium businesses have this abject apathy toward cybersecurity. It’s treated as a nice-to-have feature. However, MSPs need to ensure businesses understand that if they’re caught in a random malware attack, they could lose everything that makes their business function.
+
+Now, many organizations have adopted a maturity-based approach to cybersecurity. Essentially, they’re in the phase where they:
+
+Build capabilities
+Strengthen cybersecurity
+Establish reactive approaches to cyber events
+Built operational teams
+Create VPNs and use MFA
+Have CIOs
+This is useful, but it’s really the start of the journey. At least they’re starting to adopt good cybersecurity practices, even if they’re not necessarily using them to their advantage. McKinsey & Company describes this approach as “foundational.”
+
+Where companies start to excel is when they adopt risk-based approaches to cybersecurity. This means they:
+
+Manage and measure risk using enterprise-level risk-management frameworks
+Set risk appetites for KRIs (key risk indicators) and KPIs
+Involve all stakeholders and integrate them into their cybersecurity
+Measure and report on risk reductions, not cybersecurity capabilities
+The ultimate goal is to become proactive with your cybersecurity. This is seen by:
+
+The adoption of next-generation cybersecurity technology, such as ML and AI-based analytics for preventative threat detection
+Embedded security across all organizational products (notably secure-by-design products)
+All parties, from customers to partners, to regulators incorporated into cybersecurity and enterprise resilience
+This path clearly shows how cybersecurity risk must be measured and then adjusted up the chain as the organization becomes more mature. You go from simple risk matrices in the maturity model to quantified and measured risks in the risk-based approach model. Finally, you actively seek to reduce risk through these models by focusing on products and services that measurably reduce risk in the proactive model.
+
+Now, there’s no way a 2,000-word article will give you a complete overview of measuring cybersecurity risk — even a degree might be insufficient. However, it’s essential to be aware of effective ways of approaching cybersecurity risk and how companies are starting to mature in the market — and how some are not.
