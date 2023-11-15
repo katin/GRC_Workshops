@@ -1,0 +1,130 @@
+SRC: https://www.complianceforge.com/compliance/cybersecurity-risk-management/
+Accessed on: Nov 15, 2023
+
+Risk Tolerance vs Risk Threshold vs Risk Appetite
+The alternative to risk management is crisis management. The information on this page exists to provide practical guidance on Enterprise Risk Management (ERM) for cybersecurity and data privacy practitioners, specifically focused on how to align risk appetite, risk tolerance and risk thresholds with an organization's strategic, operational and tactical business planning activities. What is presented is a holistic approach that has practical applications. There are a lot of terms in cybersecurity and three (3) of the top misused terms are:
+
+Risk Tolerance
+Risk Threshold
+Risk Appetite
+The concepts of risk appetite, risk tolerance and risk thresholds are not independent terms that are meant to stand by themselves, since they share a dependency that needs to be understood to create a coherent risk management strategy. Likewise, those terms are also directly linked to strategic, operational and tactical decision making. 
+
+Risk tolerance vs risk threshold
+
+Organizations invest in cybersecurity and data privacy as a necessity. This necessity is driven in large part by statutory, regulatory and contractual requirements. It is also driven by the desire to protect the organization's brand from acts that would harm its public image. Regardless of the reason, the base expectation is that those charged with developing, implementing and governing the cybersecurity and data privacy functions are doing so in a reasonable manner that would withstand scrutiny that could take the form as an external auditor, regulator or prosecuting attorney. 
+
+Enterprise Risk Management (ERM) - Practitioner's Guide To Align Risk Appetite, Risk Tolerance & Risk Thresholds With Strategic, Operational & Tactical Business Planning Activities
+The following whitepaper delves into a viable method to align risk appetite, risk tolerance and risk thresholds with your organization's strategic, operational and tactical business planning activities:
+
+cybersecurity risk management enterprise risk management
+
+Baselining Risk Management Terminology
+Before diving into that discussion, it is important to baseline some underlying concepts that come into play when describing "What is meant by managing risk?" Risk management involves coordinated activities that optimize the management of potential opportunities and adverse effects. The alternative to risk management is crisis management. Risk management provides a way of realizing potential opportunities without exposing an organization to unnecessary peril.
+
+What Is A Risk?
+In the context of cybersecurity risk management practices, “risk” is defined as:
+
+noun A situation where someone or something valued is exposed to danger, harm or loss.                                              
+verb To expose someone or something valued to danger, harm or loss.                                 
+In the context of this definition of risk, it is important to define underlying components of this risk definition:
+
+Danger: state of possibly suffering harm or injury
+Harm: material / physical damage
+Loss: destruction, deprivation or inability to use
+One important concept to understand is that risk is variable - it changes and is not static. The implication is that risk ratings are subject to change as the operating environment changes. 
+
+What Is A Threat?
+In the context of the cybersecurity risk management practices, “threat” is defined as:
+
+noun A person or thing likely to cause damage or danger.
+verb To indicate impending damage or danger.
+Risk vs Threat
+Risks and threats both tie into cybersecurity and data protection controls, but it is important to understand the differences:
+
+A risk exists due to the absence of or a deficiency with a control; but
+A threat affects the ability of a control to exist or operate properly.
+If you want to learn for about threats vs vulnerabilities vs risks, we have a page that describes that in greater detail.
+
+Visualizing Risk Tolerance vs Risk Threshold vs Risk Appetite
+According to the Project Management Body of Knowledge (PMBOK)™ Guide:
+
+Risk Appetite is the “degree of uncertainty an organization or individual is willing to accept in anticipation of a reward.”
+Risk Tolerance is the “specified range of acceptable results.”
+Risk Threshold is the “level of risk exposure above which risks are addressed and below which risks may be accepted.”
+Risk Appetite
+Risk appetite is more of a management statement, where it is subjective in nature. Similar in concept to how a policy is a "high-level statement of management intent," an organization's stated risk appetite is a high-level statement of how all, or certain types of, risk are willing to be accepted. Risk appetites exist as a guiderail from an organization's executive leadership to inform personnel about what is and is not acceptable, in terms of risk management. Using a review of current risk status vs target risk appetites can be useful to see how well cybersecurity practices operate to clearly see what practice areas deviate from expectations.
+
+Examples of an organization stating its risk appetite:
+
+"[organization name] is a low-risk organization!"
+"[organization name] will avoid any activities that could harm its customers."
+It is important to know that in many immature risk programs, risk appetite statements are divorced from reality. Executive leaders mean well when they put out risk appetite statements, but the Business As Usual (BAU) practices routinely violate the risk appetite. This is often due to numerous reasons:
+
+Technical debt
+Dysfunctional management decisions
+Insecure practices
+Inadequate funding/resourcing
+Improperly scoped support contracts (e.g., MSPs, consultants, vendors, etc.)
+Lack of pre-production security testing
+In a mature risk program, the results of risk assessments are evaluated with the organization's risk appetite in mind. For example, if the organization has a "moderate risk appetite" and there are several findings in a risk assessment that are high risk, then action must be taken to reduce the risk, since it cannot be accepted. Accepting a high risk would violate the moderate risk appetite set by management. In reality, that leaves remediation, transferring or avoiding as the remaining three (3) options.
+
+From the previous graphic, when you look at it from a risk appetite perspective, For an organization that wants to follow a "moderate risk appetite," that establishes constraints for allowable and prohibited activities, based on the potential harm to the organization:
+
+risk threshold vs risk tolerance vs risk appetite
+
+It is possible to identify a target risk appetite at a domain level, as well as an organizational level. This can be visualized with a spider / radar diagram, as shown below:
+
+Cybersecurity risk appetite
+
+Risk Tolerance
+Unlike risk appetite, risk tolerance is objective in nature. While risk appetite is conceptual, risk tolerance is based on objective criteria. Defining objective criteria is a necessary step to be able to categorize risk on a graduated scale. Establishing objective criteria to quantify the impact of a risk enables risk assessments to leverage that same criteria and assist decision-makers in their risk management decisions (e.g., accept, mitigate, transfer or avoid).
+
+From a graduated scale perspective, it is possible to define "tolerable" risk criteria to create a few useful categories of risk:
+
+Low risk
+Moderate risk
+High risk
+Severe risk
+Extreme risk
+cybersecurity risk assessment matrix
+
+The objective criteria that goes into defining what constitutes a low, moderate, high, severe or extreme risk includes:
+
+Impact Effect (IE); and
+Occurrence Likelihood (OL)
+The six (6) categories of IE are:
+
+Insignificant;
+Minor;
+Moderate;
+Major;
+Critical; and
+Catastrophic.
+The six (6) categories of OL are:
+
+Remote possibility;
+Highly unlikely;
+Unlikely;
+Possible
+Likely; and
+Almost certain.
+There are three (3) general approaches are commonly employed to estimate OL:
+
+Relevant historical data;
+Probability forecasts; and
+Expert opinion.
+Risk Threshold
+Risk thresholds are directly tied to risk tolerance. As the graphic at the top of the page depicts, there is a threshold between the different levels of risk tolerance. By establishing thresholds, it brings the "graduated scale perspective" to life.
+
+Practical Example
+Let's take a look at a theoretical company, ACME, that is experimenting with Artificial Intelligence (AI) to strengthen its products and/or services, ACME's long-standing risk appetite is relatively conservative, where ACME draws a hard line that any risk over moderate is unacceptable. Additionally, ACME has no tolerance for any activities that could harm its customers. 
+
+Given the changes necessary to ramp up both talent and technology to put the appropriate solutions in place to meet ACME's deadlines, there are gaps/deficiencies. When the risk management team assesses the associated risks, the results identify a range of risks from high to extreme. The reason for this is simply due to the higher occurrence likelihood of emergent behaviors that potentially could harm individuals (e.g., catastrophic impact effect). The results were objective and tell a compelling story that there is a realistic chance of significant damage to ACME's reputation.
+
+With those results, it is a management decision. What does ACME's CEO / Board of Directors (BoD) do?
+
+Dispense with its long-standing risk appetite for this specific project so that a potentially lucrative business opportunity can exist?
+Is the AI project cancelled, due to the level of risk?
+If the CEO/BoD proceeds with accepting the risk, is it violating its fiduciary duties, since it is accepting risk it previously deemed unacceptable? Additionally, would ACME be considered negligent for accepting high, severe or extreme risk (e.g., would a rational individual under similar circumstances make the same decision?)?
+
+These are all very real topics that need to be considered and how risk is managed has significant legal and financial implications.
