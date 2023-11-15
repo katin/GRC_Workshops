@@ -1,0 +1,36 @@
+SRC: https://blog.blackswansecurity.com/2019/05/homebrew-monte-carlo/
+Accessed: Nov 15, 2023
+
+# Homebrew Monte Carlo Simulations for Security Risk Analysis
+## Analytics, Management, Other, Risk, Security
+I cannot say enough good things about Doug Hubbard’s work. I’ve been obsessed with How to Measure Anything and The Failure of Risk Management so when he published How to Measure Anything in Cybersecurity Risk with Richard Seierson I could not have been happier.
+
+The whole book is worth reading and considering but once you have done that it’s clear that Chapter 3 includes some great practical guidance on ‘Uncertainty Math’ and how to really get started with using quantitative probabilistic risk analysis in cyber risk assessment.
+
+Doug is very generous and documents the simple components for developing a Monte Carlo simulation in Microsoft Excel, the sheet he discusses is available for download.
+
+The formula in Excel is:
+
+=if(rand() < P), lognorm.inv( rand(), (ln(UB)+ln(LB)/2), (ln(UB)-ln(LB)/3.29), 0)
+
+I won’t repeat Doug’s explanation here, go read the book. Where P is the chance of occurrence, UB is the upper bound of harm and LB is the lower bound of harm.
+
+I’ve spent a lot of time working with new tech-focused startups in healthcare, financial services, marketing and technology products recently and the one consistent aspect I have discovered is that they have all used Google Gsuite by default. This has been excellent for getting value out of my Chromeboook but has meant that I now live in a word of Google Sheets and Google Apps Script rather than Microsoft Excel.
+
+Rewriting the formula in Google sheets is relatively easy:
+
+=if(rand() < P, loginv(rand(), average(ln(UB),ln(LB)), stdev(ln(UB), LN(LB))), 0)
+
+This isn’t a million miles away from the Excel version.
+
+However, when you get to simulating the outcome many thousands of times across a portfolio of risks the execution time due to refreshing the spreadsheet is onerous and I found copy and pasting the formula 10,000 or 100,000 time daunting.
+
+To deal with this I started looking at Google Apps Script to divorce the calculation from the spreadsheet refresh. After a bit of searching I found that the standard Math object has a random() function and that the Javascript jStat library has an inverse lognormal function which allowed me to rewrite the formula in javascript to run in a loop in a google apps script triggered from the Google sheet but not requiring a refresh of the sheet every iteration. This makes the whole simulation process faster.
+
+var stdevHarm = jStat.stdev([Math.log(LB), Math.log(UB)]);
+var averageHarm = jStat.mean([Math.log(LB), Math.log(UB)]);
+
+if (Math.random() < P) { var riskValue = jStat.lognormal.inv( Math.random(), averageHarm, stdevHarm );}
+else { var riskValue = 0;}
+
+I’m posting this so that if anyone else is following the same path they can save some time. If this can be improved on or there are any obvious flaws please let me know.
